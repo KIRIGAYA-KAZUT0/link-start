@@ -15,7 +15,7 @@ print ("\033[1;32m❛ ━━━━━･━━━━━━･━━━━━━�
 
 import requests, os
 def insta():
-    Print(f'[!] menginstall tools insta crack')
+ print (f'[!] menginstall tools insta crack')
     os.system('cd instacrack')
     os.system('bash instacrack.sh')
 def hapus():
