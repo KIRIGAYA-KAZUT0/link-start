@@ -168,7 +168,7 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	os.system('sh indo.sh')
+	os.system('sh ggo.sh')
 	print 42*"\033[1;92m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Nama \033[1;91m: \033[1;92m"+nama+"\033[1;97m                  "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
