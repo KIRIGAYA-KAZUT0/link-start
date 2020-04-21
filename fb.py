@@ -44,6 +44,11 @@ def jalan(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.05)
+		
+		logo = """
+\033[1;36m Sword Art Online
+ """
+
 back = 0
 threads = []
 berhasil = []
