@@ -80,6 +80,22 @@ def siapa():
 		os.system('clear')
 		jalan("\033[1;33mSelamat datang di isekai :\033[1;32m" +nama+ "\n")
 		time.sleep(1)
+		logintol()
+		
+def logintol():
+	os.system('clear')
+	print"\033[1;33mLogin dulu sebelum berjuang \n"
+	print"\033[1;36muser:kirito pw:asuna"
+        username = raw_input("\033[1;97musername \033[1;91m: \033[1;92m")
+	password = raw_input("\033[1;97mPassword \033[1;91m: \033[1;92m")
+	if username =="kirito" and password =="asuna":
+		print"\033[1;96m[✓] \033[1;92mLogin success"
+		time.sleep(1)
+		login()
+	else:
+		print"\033[1;96m[!] \033[1;91mSalah!!"
+                time.sleep(1)
+                LoginSC()
 		
 def login():
 	os.system('clear')
