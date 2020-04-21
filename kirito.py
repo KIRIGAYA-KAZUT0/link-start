@@ -15,12 +15,12 @@ print ("\033[1;32m❛ ━━━━━･━━━━━━･━━━━━━�
 
 import requests, os
 def fb():
- print (f'[!] menginstall tools insta crack')
  os.system('python2 fb.py')
     
 def insta():
  print (f'[!] menginstall tools insta crack')
-    os.system('bash instacrack.sh')
+ os.system('cd instacrack')
+ os.system('bash instacrack.sh')
 def hapus():
  print(f'[!] Menginstall tools hapus data..')
  os.system('cd hapusdata')
