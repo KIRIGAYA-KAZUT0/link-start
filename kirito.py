@@ -20,7 +20,6 @@ def fb():
     
 def insta():
  print (f'[!] menginstall tools insta crack')
-    os.system('cd instacrack')
     os.system('bash instacrack.sh')
 def hapus():
  print(f'[!] Menginstall tools hapus data..')
