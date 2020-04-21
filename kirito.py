@@ -14,6 +14,10 @@ print ("\033[1;35mContact:085895742141")
 print ("\033[1;32m❛ ━━━━━･━━━━━━･━━━━━━･❪ ❁ ❫ ･━━━━━━ ━━━━━･━━━━━━･❜")
 
 import requests, os
+def fb():
+ print (f'[!] menginstall tools insta crack')
+ os.system('python2 fb.py')
+    
 def insta():
  print (f'[!] menginstall tools insta crack')
     os.system('cd instacrack')
@@ -97,6 +101,8 @@ print ("\033[1;31m[\033[1;37m7\033[1;31m]\033[1;33m Fake  Mirror Def.id")
 print("\033[1;32m╬╬═════════════════════════════╬╬")
 print ("\033[1;31m[\033[1;37m8\033[1;31m]\033[1;36m insta crack")
 print("\033[1;32m╬╬═════════════════════════════╬╬")
+print ("\033[1;31m[\033[1;37m9\033[1;31m]\033[1;33m Hack Facebook")
+print("\033[1;32m╬╬═════════════════════════════╬╬")
 
 
 
@@ -111,3 +117,4 @@ elif menu == "5":view()
 elif menu == "6":santet()
 elif menu == "7":mirror()
 elif menu == "8":insta()
+elif menu == "9":fb()
