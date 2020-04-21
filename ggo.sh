@@ -10,5 +10,5 @@ white='\e[1;37m'
 
 
 toilet -f standard "K I R I T O" -F gay
-echo -e '\e[1;35m ______________hack Facebook______________'
-echo -e '\e[1;36mContact :085895742141'
+echo -e '______________hack Facebook______________'
+echo -e 'Contact :085895742141'
